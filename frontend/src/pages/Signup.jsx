@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
 
-    const res = await axios.post(`http://localhost:5000/api/signup`, {
+    const res = await axios.post(`https://foodapp-o963.onrender.com/api/signup`, {
       name,
       email,
       password,

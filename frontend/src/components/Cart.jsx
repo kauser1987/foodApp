@@ -25,7 +25,7 @@ const Cart = () => {
 
   const checkout = async () => {
     // const res = await axios.get("https://flavoro-clone-backend.onrender.com/api/checkout");
-    const res = await axios.get("http://localhost:5000/api/checkout");
+    const res = await axios.get("https://foodapp-o963.onrender.com/api/checkout");
     const {url}= await res.data;
     window.location.href = url;
   };
