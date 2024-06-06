@@ -10,7 +10,7 @@ const routes = require("./routes");
 connectDb();
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://flavoro-clone.vercel.app"],
+    origin: ["http://localhost:5173","https://food-app-kappa-blush.vercel.app"],
     credentials: true,
   })
 );
